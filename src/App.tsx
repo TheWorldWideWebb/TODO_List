@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import reportWebVitals from "./utils/reporting/reportWebVitals";
 
 function App() {
   return (
@@ -22,5 +23,7 @@ function App() {
     </div>
   );
 }
+
+reportWebVitals(App);
 
 export default App;
